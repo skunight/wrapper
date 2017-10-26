@@ -1,0 +1,68 @@
+{
+  "name": "webwrapper",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@git.we2tu.com:erp/webwrapper.git",
+  "author": "朱子云 <zzy@tripb2b.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node dist/app",
+    "dev": "./node_modules/.bin/gulp dev"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "ejs": "^2.5.7",
+    "fs-plus": "^2.9.3",
+    "kcors": "2",
+    "koa": "^2.3.0",
+    "koa-bodyparser": "^4.2.0",
+    "koa-compress": "next",
+    "koa-favicon": "next",
+    "koa-log4": "^2.2.1",
+    "koa-multer": "^1.0.2",
+    "koa-router": "next",
+    "koa-static": "^4.0.1",
+    "koa-views": "^6.1.1",
+    "lodash": "^4.17.4",
+    "moment": "^2.18.1",
+    "randomstring": "^1.1.5",
+    "redis": "^2.6.3",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.0",
+    "upyun": "^3.1.1",
+    "uuid": "^3.1.0"
+  },
+  "devDependencies": {
+    "ava": "^0.19.1",
+    "babel-cli": "^6.18.0",
+    "babel-core": "^6.20.0",
+    "babel-eslint": "^7.1.1",
+    "babel-loader": "^6.2.9",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-plugin-transform-runtime": "^6.15.0",
+    "babel-polyfill": "^6.20.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-es2017": "^6.16.0",
+    "babel-preset-latest": "^6.16.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "babel-preset-stage-3": "^6.17.0",
+    "babel-register": "^6.18.0",
+    "core-decorators": "^0.15.0",
+    "del": "^2.2.2",
+    "expect.js": "^0.3.1",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-clean": "^0.3.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-eslint": "^3.0.1",
+    "gulp-file-cache": "^0.0.1",
+    "gulp-mocha": "^3.0.1",
+    "gulp-nodemon": "^2.2.1",
+    "gulp-sourcemaps": "^1.9.1"
+  },
+  "ava": {
+    "require": [
+      "babel-register"
+    ]
+  }
+}
